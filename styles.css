@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_title {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.cells {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 860px;
+  height: 860px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  height: 100%;
+}
+
+.box {
+  flex: auto;
+  padding: 10%;
+  background-color: beige;
+  border: 1px solid black;
+}
+
+.content_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.change_size_btn {
+  width: 180px;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.clear_btn {
+  width: 180px;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.rgb_btn {
+  width: 180px;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.change_size_btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.clear_btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rgb_btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
